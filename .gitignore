@@ -1,0 +1,40 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/nova
+bin/
+dist/
+
+# Test binary, built with `go test -c`
+*.test
+*.prof
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+credentials.*
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+.nova/
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Internal design & spec files
+achitecture.md
+prd.md
+prompt.md
+task.md
+tdd.md
+
